@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Workspace Tour - CSS Positioning</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- საიტის ზედა სათაური -->
+  <header class="main-header">
+    <h1>Interactive Workspace Tour</h1>
+    <p>მიიტანეთ მაუსი წერტილებზე (Hotspots) ნივთების დეტალების სანახავად</p>
+  </header>
+
+  <!-- მთავარი კონტენტი -->
+  <main>
+    <div class="workspace-container">
+  <!-- სამუშაო მაგიდის ფოტო -->
+  <img src="https://cdn.discordapp.com/attachments/1452974496284803127/1564343634575495178/e09b80d8384dc7f0.jpg?ex=6ae0ec0a&is=6adf9a8a&hm=824a2d5c0fa2b3c076d9e63f99d16142fc0beb4bcbf7f7f066f8233197db94e6& alt="Workspace" class="workspace-img">
+
+  <!-- 1. ყავის ჭიქა (ქვედა მარცხენა) -->
+  <div class="hotspot" style="top: 72%; left: 20%;">
+    +
+    <div class="tooltip">
+      <h3>Ceramic Coffee Mug</h3>
+      <span class="price">$18</span>
+      <p>350ml matte finish ceramic mug.</p>
+    </div>
+  </div>
+
+  <!-- 2. მცენარე (მაგიდაზე, მარცხნივ) -->
+  <div class="hotspot" style="top: 65%; left: 33%;">
+    +
+    <div class="tooltip">
+      <h3>Desk Succulent Plant</h3>
+      <span class="price">$12</span>
+      <p>Low-maintenance potted plant.</p>
+    </div>
+  </div>
+
+  <!-- 3. მონიტორი (ცენტრში) -->
+  <div class="hotspot" style="top: 35%; left: 50%;">
+    +
+    <div class="tooltip">
+      <h3>4K Ergonomic Monitor</h3>
+      <span class="price">$450</span>
+      <p>27-inch IPS display with USB-C.</p>
+    </div>
+  </div>
+
+  <!-- 4. კლავიატურა (შუაში ქვემოთ) -->
+  <div class="hotspot" style="top: 76%; left: 51%;">
+    +
+    <div class="tooltip">
+      <h3>Keychron Custom Keyboard</h3>
+      <span class="price">$150</span>
+      <p>Tactile switches, hot-swappable RGB.</p>
+    </div>
+  </div>
+
+  <!-- 5. ბლოკნოტი (კლავიატურის მარჯვნივ) -->
+  <div class="hotspot" style="top: 72%; left: 65%;">
+    +
+    <div class="tooltip">
+      <h3>Grid Paper Notepad</h3>
+      <span class="price">$15</span>
+      <p>Premium dot-grid notebook.</p>
+    </div>
+  </div>
+
+  <!-- 6. მაუსი (მარჯვენა მხარეს) -->
+  <div class="hotspot" style="top: 78%; left: 71%;">
+    +
+    <div class="tooltip">
+      <h3>Wireless Ergonomic Mouse</h3>
+      <span class="price">$99</span>
+      <p>Precision tracking scroll wheel.</p>
+    </div>
+  </div>
+
+  <!-- 7. ყურსასმენი (სადგამზე, მარჯვენა კიდეში) -->
+  <div class="hotspot" style="top: 58%; left: 84%;">
+    +
+    <div class="tooltip">
+      <h3>Noise-Canceling Headphones</h3>
+      <span class="price">$299</span>
+      <p>Active noise cancellation audio.</p>
+    </div>
+  </div>
+</div>
+
+
+      <!-- ==========================================
+           HOTSPOT 7: ბლოკნოტი
+           ========================================== -->
+      <div class="hotspot hotspot-notepad" style="top: 80%; left: 32%;">
+        <span class="hotspot-icon">+</span>
+        
+        <article class="tooltip">
+          <h3 class="tooltip-title">Grid Paper Notepad</h3>
+          <span class="tooltip-price">$15</span>
+          <p class="tooltip-desc">Premium dot-grid notebook for wireframing and quick notes.</p>
+          <a href="#" class="tooltip-btn">View Details</a>
+        </article>
+      </div>
+
+    </section>
+  </main>
+
+  <!-- ==========================================
+       ნაწილი 5: მცურავი ვიჯეტი (position: fixed)
+       ========================================== -->
+  <aside class="help-widget" title="დახმარება">
+    ?
+  </aside>
+
+</body>
+</html>
+      
